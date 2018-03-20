@@ -20,7 +20,7 @@ const routes: Routes = [
   {path: 'client/:id', component: ClientDetailsComponent},
   {path: 'settings', component: SettingsComponent},
   {path: '**', component: NotFoundComponent},
-]
+];
 
 @NgModule({
   exports: [RouterModule],

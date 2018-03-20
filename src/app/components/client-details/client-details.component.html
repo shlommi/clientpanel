@@ -35,10 +35,10 @@
         </small>
         </h3>
         <div class="clearfix">
-          <form  *ngIf="showBalanceUpdateInput" (submit)="updateBalance(id)" >
+          <form  *ngIf="showBalanceUpdateInput" (submit)="updateBalance()" >
             <div class="input-group">
               <input
-               type="text"
+               type="number"
                 name="balance"
                  class="form-control"
                  [(ngModel)]="client.balance"
